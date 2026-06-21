@@ -1,0 +1,20 @@
+# VS / VSTO build output
+bin/
+obj/
+Debug/
+Release/
+*.user
+*.suo
+*.vs/
+.vs/
+*.DotSettings.user
+
+# NuGet
+packages/
+
+# VSTO publish output
+publish/
+
+# 注意：WordAIAgent/app.config 中不要填写真实的 API Key
+# 使用环境变量 DEEPSEEK_API_KEY 代替
+# 如果临时填写了 Key，千万不要提交此文件
