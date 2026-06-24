@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Word AI 助手</title>
+  <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+  <style>
+    *, *::before, *::after {
+      margin: 0; padding: 0; box-sizing: border-box;
+    }
+    html, body, #root {
+      height: 100%;
+      font-family: "Microsoft YaHei", "Segoe UI", sans-serif;
+      font-size: 13px;
+      color: #333;
+      background: #fff;
+      overflow: hidden;
+    }
+    button:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+    textarea:disabled {
+      opacity: 0.5;
+    }
+    a { text-decoration: underline; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+</body>
+</html>

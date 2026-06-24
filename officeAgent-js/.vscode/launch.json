@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Word Desktop (Edge)",
+      "type": "msedge",
+      "request": "attach",
+      "port": 9222,
+      "timeout": 60000,
+      "webRoot": "${workspaceFolder}/dist",
+      "sourceMaps": true,
+      "sourceMapPathOverrides": {
+        "webpack:///./*": "${webRoot}/*"
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+# DeepSeek 配置（可通过环境变量覆盖）
+deepseek:
+  api-key: ${DEEPSEEK_API_KEY:}           # 默认从环境变量取
+  api-url: ${DEEPSEEK_API_URL:https://api.deepseek.com/chat/completions}
+  model: ${DEEPSEEK_MODEL:deepseek-v4-pro}
+
+# CORS 配置 — 允许 Office 侧边栏跨域请求
+cors:
+  allowed-origins: ${CORS_ORIGINS:https://localhost:3000}

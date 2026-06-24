@@ -1,14 +1,6 @@
 {
-    // ====== C# 语言服务器 ======
+    // ====== C# 语言服务器 (C# Dev Kit) ======
     "dotnet.defaultSolution": "agentoffice/agentOffice.sln",
-
-    // 强制使用 VS 2022 的 MSBuild（它认识 VSTO/GAC 引用）
-    "omnisharp.useModernNet": false,
-    "omnisharp.path": "latest",
-
-    // ====== 告诉 OmniSharp 去哪找 Office 程序集 ======
-    "omnisharp.enableRoslynAnalyzers": false,
-    "omnisharp.enableMsBuildLoadProjectsOnDemand": false,
 
     // ====== 排除 bin/obj，加快索引 ======
     "files.exclude": {
